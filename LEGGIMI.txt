@@ -1,0 +1,16 @@
+FlashinLabs - Messaggi clienti
+==============================
+
+Uso
+- Avvia FlashinLabs-Messaggi.exe (nessuna installazione, si può tenere su chiavetta o desktop).
+- Scrivi il nome del cliente e scegli/scrivi il dispositivo.
+- Premi "Copia messaggio" (oppure Invio) e incolla su WhatsApp Business con Ctrl+V.
+- "Nuovo cliente" svuota i campi.
+
+Il saluto cambia da solo: "Buongiorno" fino alle 14:00, poi "Buonasera".
+Il nome viene scritto con l'iniziale maiuscola automaticamente (mario rossi -> Mario Rossi).
+
+Personalizzare il testo
+Copia "messaggio.esempio.txt" nella stessa cartella dell'exe rinominandolo "messaggio.txt"
+e modificalo. Segnaposto disponibili: [SALUTO] [NOME] [DISPOSITIVO].
+Se messaggio.txt non esiste, viene usato il testo predefinito.
