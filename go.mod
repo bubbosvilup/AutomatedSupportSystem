@@ -1,3 +1,3 @@
-module flashinlabs-messaggi
+module automatedsupportsystem
 
 go 1.24.7

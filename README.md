@@ -1,9 +1,13 @@
-# FlashinLabs – Messaggi clienti
+# A.S.S. – Automated Support System
 
-App Windows portable (un solo `.exe`, nessuna installazione) che genera il messaggio
+App Windows portable di FlashinLabs (un solo `.exe`, nessuna installazione) che genera il messaggio
 "dispositivo pronto per il ritiro" da copiare e incollare su WhatsApp Business.
 
 Scritta in Go chiamando direttamente le API Win32: nessuna dipendenza esterna.
+Interfaccia in stile Windows 98, disegnata a mano: barra del titolo con gradiente,
+pulsanti in rilievo, group box incisi, barra di stato con orologio.
+
+![A.S.S. in azione](docs/screenshot.png)
 
 ## Uso
 
@@ -21,17 +25,17 @@ Scritta in Go chiamando direttamente le API Win32: nessuna dipendenza esterna.
 Richiede Go 1.24+. Da qualunque sistema operativo:
 
 ```sh
-GOOS=windows GOARCH=amd64 go build -trimpath -ldflags "-s -w -H windowsgui" -o FlashinLabs-Messaggi.exe .
+GOOS=windows GOARCH=amd64 go build -trimpath -ldflags "-s -w -H windowsgui" -o AutomatedSupportSystem.exe .
 ```
 
 Su Windows (PowerShell):
 
 ```powershell
 $env:GOOS="windows"; $env:GOARCH="amd64"
-go build -trimpath -ldflags "-s -w -H windowsgui" -o FlashinLabs-Messaggi.exe .
+go build -trimpath -ldflags "-s -w -H windowsgui" -o AutomatedSupportSystem.exe .
 ```
 
-`rsrc_windows_amd64.syso` incorpora icona e manifest (stili visivi moderni, DPI-aware).
+`rsrc_windows_amd64.syso` incorpora icona e manifest (DPI-aware, senza Common Controls v6 così i controlli restano in stile classico).
 Per rigenerarlo dopo aver modificato `icon.ico` o `app.manifest`:
 
 ```sh

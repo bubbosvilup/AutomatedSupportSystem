@@ -1,8 +1,8 @@
-FlashinLabs - Messaggi clienti
-==============================
+A.S.S. - Automated Support System
+=================================
 
 Uso
-- Avvia FlashinLabs-Messaggi.exe (nessuna installazione, si può tenere su chiavetta o desktop).
+- Avvia AutomatedSupportSystem.exe (nessuna installazione, si può tenere su chiavetta o desktop).
 - Scrivi il nome del cliente e scegli/scrivi il dispositivo.
 - Premi "Copia messaggio" (oppure Invio) e incolla su WhatsApp Business con Ctrl+V.
 - "Nuovo cliente" svuota i campi.

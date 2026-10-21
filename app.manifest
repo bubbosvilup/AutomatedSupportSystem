@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-  <assemblyIdentity version="1.0.0.0" processorArchitecture="*" name="FlashinLabs.Messaggi" type="win32"/>
-  <dependency><dependentAssembly>
-    <assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" language="*"/>
-  </dependentAssembly></dependency>
+  <assemblyIdentity version="1.1.0.0" processorArchitecture="*" name="FlashinLabs.AutomatedSupportSystem" type="win32"/>
+  <description>A.S.S. - Automated Support System</description>
+  <!-- Niente Common Controls v6: i controlli restano in stile classico, come nel '98. -->
   <application xmlns="urn:schemas-microsoft-com:asm.v3"><windowsSettings>
     <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware>
   </windowsSettings></application>
